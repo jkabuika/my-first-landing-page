@@ -98,6 +98,10 @@ header h1 {
 
 .fa-solid {
     background-color: #D4AF37;
+    font-size: 64px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
 }
 
 .service-options {
@@ -111,3 +115,14 @@ header h1 {
     align-items: center;
     justify-content: center;
 }
+
+.service-options * {
+    margin-bottom: 15px;
+}
+
+.service-options h3 {
+    font-size: 26px;
+}
+
+/* PORTFOLIO */
+
