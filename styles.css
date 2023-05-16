@@ -11,3 +11,16 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
+
+/* Navigation */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
