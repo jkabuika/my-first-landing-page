@@ -14,13 +14,26 @@ body {
 
 /* Navigation */
 
+/* Navigation */
+
 .main-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.main-nav ul {
+    padding: 20px;
+  }
+  
+  .main-nav ul {
     display: flex;
     list-style: none;
-}
+    padding-right: 200px;
+  }
+  
+  .main-nav li {
+    margin-right: 30px; 
+    font-size: 22px;
+  }
+
+  .main-nav h2 {
+    padding-left: 120px;
+  }
