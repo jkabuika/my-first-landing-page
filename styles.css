@@ -84,7 +84,7 @@ header h1 {
 
 /* SERVICES */
 
-.services {
+#services {
     height: 90vh;
     width: 100%;
 }
@@ -141,7 +141,7 @@ header h1 {
 
 /* PORTFOLIO */
 
-.portfolio {
+#portfolio {
     height: 120vh;
     width: 100%;
     background-color: #f4f4f4;
