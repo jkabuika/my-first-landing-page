@@ -85,7 +85,7 @@ header h1 {
 /* SERVICES */
 
 .services {
-    height: 75vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -94,6 +94,11 @@ header h1 {
     text-transform: uppercase;
     padding-top: 70px;
     padding-bottom: 10px;
+}
+
+.subtitle-comment {
+    color: black;
+    font-style: italic;;
 }
 
 .subtitle, .subtitle-comment {
@@ -107,7 +112,7 @@ header h1 {
     font-size: 64px;
     margin: 10px;
     padding: 25px;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .service-options {
@@ -128,6 +133,10 @@ header h1 {
 
 .service-options h3 {
     font-size: 26px;
+}
+
+.reservations-text {
+    width: 70%;
 }
 
 /* PORTFOLIO */
