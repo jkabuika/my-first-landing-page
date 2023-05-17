@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
@@ -74,13 +78,19 @@ header h1 {
 
 .header-btn {
     font-size: 20px;
-    border: #000 1px solid;
+    border: none;
     border-radius: 10px;
     padding: 25px 50px;
     margin-top: 20px;
     background-color: #D4AF37;
     text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
 }
+
+.header-btn:hover {
+    cursor: pointer;
+    background-color: #000;
+  }
 
 /* SERVICES */
 
