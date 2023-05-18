@@ -159,11 +159,12 @@ header h1 {
 
 
 .vertical-img img {
-    max-height: 550px;
+    max-height: 525px;
 }
 
 #portfolio img {
     max-width: 400px;
+    border-radius:30px;
 }
 
 .firstrow-images, .secondrow-images {
@@ -174,14 +175,20 @@ header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 0;
   }
   
   .container-rows {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 95px;
+  }
+
+  .vertical-img {
+    padding-right: 95px; /* Adjust the padding value as desired */
   }
 
   .container-rows img {
-    padding: 10px;
+    padding: 15px;
   }
