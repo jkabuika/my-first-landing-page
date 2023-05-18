@@ -156,3 +156,32 @@ header h1 {
     width: 100%;
     background-color: #f4f4f4;
 }
+
+
+.vertical-img img {
+    max-height: 550px;
+}
+
+#portfolio img {
+    max-width: 400px;
+}
+
+.firstrow-images, .secondrow-images {
+    display: flex;
+}
+
+.row-and-vertical-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-rows img {
+    padding: 10px;
+  }
