@@ -192,3 +192,10 @@ header h1 {
   .container-rows img {
     padding: 15px;
   }
+
+  /* ABOUT */
+
+  #about {
+    height: 70vh;
+    width: 100%;
+  }
