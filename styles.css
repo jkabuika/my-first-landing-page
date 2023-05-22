@@ -152,7 +152,7 @@ header h1 {
 /* PORTFOLIO */
 
 #portfolio {
-    height: 120vh;
+    height: 140vh;
     width: 100%;
     background-color: #f4f4f4;
 }
@@ -192,20 +192,46 @@ header h1 {
   .container-rows img {
     padding: 15px;
   }
+/* ABOUT */
 
-  /* ABOUT */
-
-  #about {
+#about {
     height: 120vh;
     width: 100%;
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
-  .second-container img {
-    max-width: 225px;
-  }
-
-.first-container, .second-container {
+  
+  .first-container,
+  .second-container {
     display: flex;
     margin: 50px 0;
-}
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .first-container-text,
+  .second-container-text {
+    flex: 0 0 50%;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  .first-container-text h3,
+  .second-container-text h3 {
+    margin-bottom: 10px;
+  }
+  
+  .first-container-img,
+  .second-container-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
+  
+  .second-container {
+    flex-direction: row-reverse;
+  }
+  
+  
