@@ -213,7 +213,7 @@ header h1 {
   
   .first-container-text,
   .second-container-text {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
     padding: 0 20px;
     text-align: left;
   }
@@ -228,10 +228,6 @@ header h1 {
     width: 110px;
     height: 110px;
     border-radius: 50%;
-  }
-  
-  .second-container {
-    flex-direction: row-reverse;
   }
   
   
