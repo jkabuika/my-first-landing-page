@@ -269,20 +269,20 @@ header h1 {
     color: #fff;
   }
 
-  
-  #contact-form {
+  .form-sides {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin: 40px;
   }
-  
+
   .form-column {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
   }
   
-  .form-row {
+  .form-left {
     margin-bottom: 20px;
   }
   
@@ -290,10 +290,21 @@ header h1 {
   input[type="email"],
   input[type="tel"],
   textarea {
-    width: 200px;
-    padding: 5px;
+    width: 450px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 18px;
+    border: #f4f4f4 5px;
+    border-radius: 10px;
   }
   
+#message {
+    line-height: 45px;
+    width: 450px;
+    border: #f4f4f4 5px;
+    border-radius: 10px;
+}
+
   button[type="submit"] {
     padding: 10px 20px;
     background-color: #f4f4f4;
