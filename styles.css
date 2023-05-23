@@ -209,6 +209,7 @@ header h1 {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    margin-top: 80px;
   }
   
   .first-container,
@@ -250,6 +251,7 @@ header h1 {
     background-color: #D4AF37;
     padding: 10px;
     border-radius: 10%;
+    margin-bottom: 150px;
   }
 
   /* CONTACT */
@@ -257,6 +259,45 @@ header h1 {
   #contact {
     height: 110vh;
     width: 100%;
-    background-image: url();
-    margin-top: 60px;
+    background-image: url(/images/Contact-Background-img.jpg) ;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
   }
+
+  #contact h2 {
+    color: #fff;
+  }
+
+  
+  #contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+  }
+  
