@@ -278,12 +278,14 @@ header h1 {
     margin: 40px;
   }
 
-  .form-column-left,
-  .form-column-right 
-   {
+  .form-column-left {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
+    margin-right: 10px;
+  }
+
+  .form-column-right {
+    margin-left: 10px;
   }
   
   .form-left {
@@ -350,6 +352,18 @@ header h1 {
 
 #footer ul {
     display: flex;
+}
+
+.first-footer-text {
+    margin-left: 210px;
+}
+
+.social-media-icons {
+    margin-right: 15px;
+}
+
+.terms-and-conditions  {
+    margin-right: 95px;
 }
 
 .terms-and-conditions a {
