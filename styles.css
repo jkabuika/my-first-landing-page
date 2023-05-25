@@ -416,9 +416,23 @@ header h1 {
         height: 220vh;
     }
 
-    
+    .first-container,
+    .second-container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .first-container-img,
+    .second-container-img {
+        margin-bottom: 50px;
+    }
+    
     #contact {
         height: 200vh;
+    }
+
+    .form-sides {
+        display: flex;
+        flex-direction: column;
     }
 }
