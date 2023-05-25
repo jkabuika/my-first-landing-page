@@ -369,3 +369,56 @@ header h1 {
 .terms-and-conditions a {
     color: #000;
 }
+
+@media(max-width: 700px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header {
+        justify-content: center;
+        text-align: center;
+        height: 120vh;
+    }
+
+    .main-nav h2 {
+        padding-left: 0;
+    }
+
+    .main-nav ul {
+        display: none;
+    }
+
+    #services {
+        height: 200vh;
+    }
+
+    .service-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #portfolio {
+        height: 280vh;
+    }
+    
+    .firstrow-images, .secondrow-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vertical-img {
+        display: none;
+    }
+
+    #about {
+        height: 220vh;
+    }
+
+    
+
+    #contact {
+        height: 200vh;
+    }
+}
