@@ -447,3 +447,11 @@ header h1 {
 
     
 }
+
+/* CSS for sticky navbar */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust z-index as needed */
+}
