@@ -12,17 +12,19 @@
   <body>
     <!-- As a link -->
 <nav class="navbar bg-body-tertiary">
-  <div class="nav-item">
+  <div class="nav-item navBarLeft">
     <a class="navbar-brand hstack gap-1" href="#">
       <i class="bi bi-geo-alt "></i> 
       <p class="m-0">Navbar</p></a>
   </div>
-  <div class="nav-item">
-    <i class="bi bi-search"></i>
+  <div class="nav-item navBarRight">
+    <a class="navbar-brand hstack gap-1" href="">
+      <i class="bi bi-search" id="navbar-right-icon"></i>
+    </a>
   </div>
 </nav>
-<div class="container-fluid">
-  <form id="header-form">
+<div class="container-fluid first-container">
+  <form class="header-form">
     <ul class="nav bg-black" id="form-navbar">
       <li class="nav-item">
         <a class="text-white nav-link" href="#">Flight</a>
