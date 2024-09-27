@@ -1,4 +1,15 @@
-.container-fluid header {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b9/La_ville_de_Kinshasa.jpg);
-  position: absolute;
+.container-fluid {
+  background-image: url(https://forbesafrique.com/wp-content/uploads/2023/12/Inauguration-du-Centre-Financier-de-Kinshasa-19.12.2023-I-%C2%A9Dareck-Tuba-I-Forbes-Afrique-I-Exclu-Web-News-.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header-form {
+  max-width: 780px;
+  background-color: #fff;
 }
