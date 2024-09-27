@@ -7,9 +7,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 #header-form {
   max-width: 780px;
   background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden; /* This ensures the children inside the form respect the border radius */
+}
+
+/* Style for the nav element to match the form’s border radius */
+#header-form .nav {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 0; /* Ensure the nav doesn’t create a gap */
+}
+
+#header-form .nav-item a {
+  color: #fff;
+}
+
+#header-form .nav-link {
+  border-radius: 0; /* Remove default border-radius from links */
+}
+
+#header-form .nav.bg-black {
+  background-color: #000; /* Ensures the nav background stays black */
 }
