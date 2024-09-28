@@ -18,10 +18,15 @@
   font-size: 22px;
 }
 
+.navBarLeft:hover, .navBarRight:hover {
+  background-color: blue;
+}
+
 .header-form {
   width: 70wh;
   max-width: 900px;
   background-color: #fff;
 }
+
 
 
