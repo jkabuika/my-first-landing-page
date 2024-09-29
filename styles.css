@@ -1,3 +1,6 @@
+
+/*SECTION 1 HEADER*/
+
 .first-container {
   background-image: url(https://forbesafrique.com/wp-content/uploads/2023/12/Inauguration-du-Centre-Financier-de-Kinshasa-19.12.2023-I-%C2%A9Dareck-Tuba-I-Forbes-Afrique-I-Exclu-Web-News-.jpg);
   background-size: cover;
@@ -28,7 +31,7 @@
   background-color: #fff;
 }
 
-
+/*SECTION 2 IMAGES*/
 
 .img-container-left img {
   max-width: 500px;
@@ -37,5 +40,11 @@
 .grid-img-right img,
 .grid-img-left img {
   max-width: 250px;
+}
+
+.grid-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
