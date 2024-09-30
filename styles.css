@@ -33,13 +33,28 @@
 
 /*SECTION 2 IMAGES*/
 
-.img-container-left img {
-  max-width: 500px;
+#section-two {
+  
 }
 
-.grid-img-right img,
-.grid-img-left img {
-  max-width: 250px;
+.img-container-left img {
+  max-width: 500px;
+  height: 330px;
+}
+
+
+.img-container-right {
+  margin-top: 18px;
+  margin-left: 16px;
+}
+
+.top-row img,
+.bottom-row img {
+  height: 156px;
+  width: 260px;
+  position: cover;
+  margin-bottom: 16px;
+  margin-right: 10px;
 }
 
 .grid-images {
