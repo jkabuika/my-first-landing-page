@@ -3,77 +3,69 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Visit Congo DRC</title>
     <link rel="stylesheet" href="styles.css">
-    
   </head>
   <body>
-    <!-- As a link -->
-<nav class="navbar bg-body-tertiary">
-  <div class="nav-item navBarLeft">
-    <a class="navbar-brand hstack gap-1" href="#">
-      <i class="bi bi-geo-alt "></i> 
-      <p class="m-0">Congo</p></a>
-  </div>
-  <div class="nav-item navBarRight">
-    <a class="navbar-brand hstack gap-1" href="">
-      <i class="bi bi-search" id="navbar-right-icon"></i>
-    </a>
-  </div>
-</nav>
-<div class="container-fluid first-container">
-  <form class="header-form">
-    <ul class="nav bg-black" id="form-navbar">
-      <li class="nav-item">
-        <a class="text-white nav-link" href="#">Flight</a>
-      </li>
-      <li class="nav-item">
-        <a class="text-white nav-link" href="#">Hotel</a>
-      </li>
-      <li class="nav-item">
-        <a class="text-white nav-link" href="#">Rental</a>
-      </li>
-    </ul>
-    <div class="row justify-content-start">
-      <h2 class="m-3">Visit Congo with our best deals!</h2>
-      <div class="col-4 mb-3 m-3">
-        <label for="current-location" class="form-label">From</label>
-        <input type="text" class="form-control" id="currentLocationInput" placeholder="Departing from">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-item navBarLeft">
+        <a href="#" class="navbar-brand">
+          <i class="icon-geo"></i> 
+          <p>Congo</p>
+        </a>
       </div>
-      <div class="col-4 mb-3">
-        <label for="destination" class="form-label">To</label>
-        <input type="text" class="form-control" id="destinationInput" placeholder="Arriving at">
+      <div class="nav-item navBarRight">
+        <a href="#" class="navbar-brand">
+          <i class="icon-search"></i>
+        </a>
       </div>
-    </div>
-    <button type="submit" class="btn btn-primary m-3">Search and find dates</button>
-  </form>
-</div>
-<section id="section-two">
-  <div class="container-fluid offers-container mx-5 pt-4">
-    <h3>Good Offers Right Now</h3>
-    <p>Up to 50% off discount</p>
-    <div class="grid-images">
-      <div class="img-container-left">
-        <img src="https://7sur7.cd/sites/default/files/styles/article_2022/public/2024-03/31fab1d2-452f-471b-9d9b-316e03d44445.jpeg?itok=R2jVHav6" alt="View of Kinshasa">
-      </div>
-      <div class="img-container-right">
-        <div class="top-row">
-          <img src="https://scontent.fxds1-1.fna.fbcdn.net/v/t39.30808-6/280067144_328616252712298_900094361136486216_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qm8fu8hcISAQ7kNvgF_iCz4&_nc_ht=scontent.fxds1-1.fna&_nc_gid=A0iK4IT2ZREQ2M7VY7_PFig&oh=00_AYAqmGNbUrAOXbAJZhlc8k3UyJyoSE-BtPzCadP30uKMXA&oe=66FE083C" alt="View of Mbuji-Mayi">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Downtown_Lubumbashi%2C_Democratic_Republic_of_the_Congo_-_20061130.jpg" alt="View of Lumumbashi">
-        </div>
-        <div class="bottom-row">
-          <img src="https://www.mountnyiragongo.com/wp-content/uploads/2020/03/Goma-City.jpg" alt="View of Goma">
-          <img src="https://kotanga.net/wp-content/uploads/2022/05/702f4145-1f47-45f7-bee9-0b568f8bc323.jpg" alt="View of Kananga">  
-        </div>
-    </div>
-  </div>
-</section>
+    </nav>
 
-    
+    <!-- First Section -->
+    <div class="first-container">
+      <form class="header-form">
+        <ul class="nav" id="form-navbar">
+          <li><a href="#">Flight</a></li>
+          <li><a href="#">Hotel</a></li>
+          <li><a href="#">Rental</a></li>
+        </ul>
+        <div class="form-fields">
+          <h2>Visit Congo with our best deals!</h2>
+          <div class="form-group">
+            <label for="currentLocationInput">From</label>
+            <input type="text" id="currentLocationInput" placeholder="Departing from">
+          </div>
+          <div class="form-group">
+            <label for="destinationInput">To</label>
+            <input type="text" id="destinationInput" placeholder="Arriving at">
+          </div>
+        </div>
+        <button type="submit">Search and find dates</button>
+      </form>
+    </div>
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Offers Section -->
+    <section id="section-two">
+      <div class="offers-container">
+        <h3>Good Offers Right Now</h3>
+        <p>Up to 50% off discount</p>
+        <div class="grid-images">
+          <div class="img-container-left">
+            <img src="https://7sur7.cd/sites/default/files/styles/article_2022/public/2024-03/31fab1d2-452f-471b-9d9b-316e03d44445.jpeg?itok=R2jVHav6" alt="View of Kinshasa">
+          </div>
+          <div class="img-container-right">
+            <div class="top-row">
+              <img src="https://scontent.fxds1-1.fna.fbcdn.net/v/t39.30808-6/280067144_328616252712298_900094361136486216_n.jpg" alt="View of Mbuji-Mayi">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Downtown_Lubumbashi%2C_Democratic_Republic_of_the_Congo_-_20061130.jpg" alt="View of Lumumbashi">
+            </div>
+            <div class="bottom-row">
+              <img src="https://www.mountnyiragongo.com/wp-content/uploads/2020/03/Goma-City.jpg" alt="View of Goma">
+              <img src="https://kotanga.net/wp-content/uploads/2022/05/702f4145-1f47-45f7-bee9-0b568f8bc323.jpg" alt="View of Kananga">  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

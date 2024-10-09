@@ -1,8 +1,47 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/*SECTION 1 HEADER*/
+body {
+  font-family: Arial, sans-serif;
+}
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.navBarLeft, .navBarRight {
+  display: flex;
+  align-items: center;
+}
+
+.navBarLeft p, .navBarRight i {
+  font-size: 22px;
+}
+
+.icon-geo, .icon-search {
+  font-size: 24px;
+}
+
+.navBarLeft:hover, .navBarRight:hover {
+  background-color: blue;
+}
+
+/* First Section Header */
 .first-container {
-  background-image: url(https://forbesafrique.com/wp-content/uploads/2023/12/Inauguration-du-Centre-Financier-de-Kinshasa-19.12.2023-I-%C2%A9Dareck-Tuba-I-Forbes-Afrique-I-Exclu-Web-News-.jpg);
+  background-image: url('https://forbesafrique.com/wp-content/uploads/2023/12/Inauguration-du-Centre-Financier-de-Kinshasa-19.12.2023-I-%C2%A9Dareck-Tuba-I-Forbes-Afrique-I-Exclu-Web-News-.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -12,54 +51,112 @@
   justify-content: center;
 }
 
-.navbar {
-  padding-left: 20px;
-  padding-right: px;
-}
-
-#navbar-right-icon {
-  font-size: 22px;
-}
-
-.navBarLeft:hover, .navBarRight:hover {
-  background-color: blue;
-}
-
 .header-form {
-  width: 70wh;
-  max-width: 900px;
   background-color: #fff;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
 }
 
-/*SECTION 2 IMAGES*/
+.nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
 
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.form-fields {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Offers Section */
 #section-two {
-  height: 140vh;
+  padding: 50px 0;
+  background-color: #f9f9f9;
 }
 
-.img-container-left img {
-  max-width: 500px;
-  height: 330px;
+.offers-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-
-.img-container-right {
-  margin-top: 18px;
-  margin-left: 16px;
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.top-row img,
-.bottom-row img {
-  height: 156px;
-  width: 260px;
-  position: cover;
-  margin-bottom: 16px;
-  margin-right: 10px;
+p {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .grid-images {
   display: flex;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
+}
+
+.img-container-left img, .img-container-right img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-container-left {
+  max-width: 500px;
+  flex: 2;
+}
+
+.img-container-right {
+  flex: 1;
+}
+
+.top-row, .bottom-row {
+  display: flex;
+  gap: 10px;
+}
+
+.top-row img, .bottom-row img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
